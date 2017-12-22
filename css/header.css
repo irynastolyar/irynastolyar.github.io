@@ -1,0 +1,33 @@
+/****************************************/
+/* Приклад коду властивостей для header */
+/****************************************/
+
+/* Для закоментованих властивостей можна */
+/* вказати власні значення та зняти коментар */
+
+header {
+    background-color: #222;
+/*    background-image: url("../img/01.jpg");*/
+    background-size: cover ;
+    color:#fff;
+    text-align: center;
+    align-items: center;
+}
+
+header .row {
+    height: 100vh;  /* Приклад! Висота header завжди рівна висоті екрану пристрою */
+    justify-content: center;  /* Контейнери всередині header .row центруються по основній осі (горизонтально) */
+    align-items: center;  /* Контейнер всередині header .row центрується по поперечній осі (вертикально) */
+}
+
+.btn-info {
+    color: #ad974f;
+    background-color: transparent;
+    border-color: #ad974f;
+}
+
+.btn-info:hover {
+    color: #fff;
+    background-color: #ad974f;
+    border-color: #ad974f;
+}
